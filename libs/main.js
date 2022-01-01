@@ -9,7 +9,7 @@ if (ed.getSdk() == "1") {
           alert('this is the second non-educlick link u visiting')
       }, 2000);
     } else {
-      alert(ed.getData() )
+      alert(ed.getData())
     }
   } else {
     ed.clearData();
@@ -20,3 +20,6 @@ if (ed.getSdk() == "1") {
 } else {
   alert("the adClicker you are using is unsupported, kindly update or contant my author");
 }
+ed.save('0')
+alert('test')
+alert(ed.getData())
