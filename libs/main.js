@@ -8,6 +8,8 @@ if (ed.getSdk() == "1") {
       setInterval(function() {
           alert('this is the second non-educlick link u visiting')
       }, 2000);
+    } else {
+      alert(ed.getData() )
     }
   } else {
     ed.clearData();
