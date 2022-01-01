@@ -1,0 +1,2 @@
+# adClicker
+configs for adClicker
