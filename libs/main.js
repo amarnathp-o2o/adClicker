@@ -1,7 +1,7 @@
-if (ed.getSdk() > 0) {
+if (ed.getSdk() == "1") {
   if(document.URL.indexOf("educlick.page") <= -1){
-     ed.goBackToEd();
+     alert("test done");
   }
-  ed.save("data save test");
-  alert(ed.getData())
+} else {
+  alert("the adClicker you are using is unsupported, kindly update or contant my author");
 }
